@@ -150,13 +150,14 @@ textarea {
     display: flex;
     place-content: center;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 0 0 auto;
     flex-flow: row nowrap;
     gap: 10px;
     height: min-content;
     overflow: hidden;
     padding: 0px;
+    padding-top: 5%;
     position: relative;
     width: 100%;
 }
@@ -193,9 +194,9 @@ textarea {
 }
 
 .generate-button {
-    place-content: flex-start;
-    align-items: flex-start;
-    background-color: rgb(93, 63, 211);
+    place-content: center;
+    align-items: center;
+    background-color: #1DB227;
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -315,6 +316,7 @@ textarea {
     height: min-content;
     overflow: hidden;
     padding: 0px;
+    padding-top: 7%;
     position: relative;
     width: 100%;
 }

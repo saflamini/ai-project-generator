@@ -59,12 +59,12 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Explain My Code</h1>
+            <h1>What To Build? 🤔 </h1>
           </div>
           <div className="header-subtitle">
-            <h2>Code explanations, powered by GPT-3</h2>
+            <h2>A Superfluid Project Idea Generator</h2>
           </div>
-        </div>
+        {/* </div>
         <div className='prompt-container'>
         <div className='language-selector'>
           <Dropdown>
@@ -92,7 +92,7 @@ const Home = () => {
           value={userInput}
           onChange={onUserChangedText}
           />
-        </div>
+        </div> */}
         <div className='prompt-buttons'>
             <a className={isGenerating? 'generate-button-loading' : 'generate-button'}
             onClick={callGenerateEndpoint}>
@@ -106,7 +106,7 @@ const Home = () => {
             <div className="output">
                 <div className='output-header-container'>
                     <div className='output-header'>
-                        <h3>Output</h3>
+                        <h3>Your Idea:</h3>
                     </div>
                 </div>
                 <div className='output-content'>
@@ -116,11 +116,11 @@ const Home = () => {
           )
         }
       </div>
-      <div className="email-capture">
+      {/* <div className="email-capture">
         <h2>Do You Want This As a Chrome Extension?</h2>
         <h5>Enter Your Email for Updates</h5>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfRDM6pi0YVO_IbUnODpjv2Fbhw5Tq8sYrBaa71BiSmpUgTzA/viewform?embedded=true" width="640" height="451" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </div>
+      </div> */}
       {/* <div className="badge-container grow">
         <a
           href="https://buildspace.so/builds/ai-writer"
@@ -133,6 +133,7 @@ const Home = () => {
           </div>
         </a>
       </div> */}
+    </div>
     </div>
   );
 };
